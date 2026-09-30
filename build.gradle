@@ -84,3 +84,10 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+// Datagen
+fabricApi {
+	configureDataGeneration() {
+		client = true
+	}
+}

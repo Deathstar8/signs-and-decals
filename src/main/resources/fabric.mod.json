@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"deathstar8.signsanddecals.client.SignsAndDecalsClient"
+		],
+		"fabric-datagen": [
+			"deathstar8.signsanddecals.client.SignsAndDecalsDataGenerator"
 		]
 	},
 	"mixins": [

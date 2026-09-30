@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "signs-and-decals",
+	"version": "${version}",
+	"name": "Signs and Decals",
+	"description": "Create your own decals and display them anywhere!",
+	"authors": [
+		"Deathstar8"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/signs-and-decals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"deathstar8.signsanddecals.SignsAndDecals"
+		],
+		"client": [
+			"deathstar8.signsanddecals.client.SignsAndDecalsClient"
+		]
+	},
+	"mixins": [
+		"signs-and-decals.mixins.json",
+		{
+			"config": "signs-and-decals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

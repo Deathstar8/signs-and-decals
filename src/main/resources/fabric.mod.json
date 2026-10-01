@@ -5,7 +5,7 @@
 	"name": "Signs and Decals",
 	"description": "Create your own decals and display them anywhere!",
 	"authors": [
-		"Deathstar8"
+		"Deathstar8, TK-Linh, sopwared, scottphan07"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -22,7 +22,7 @@
 			"deathstar8.signsanddecals.client.SignsAndDecalsClient"
 		],
 		"fabric-datagen": [
-			"deathstar8.signsanddecals.client.SignsAndDecalsDataGenerator"
+			"deathstar8.signsanddecals.client.datagen.SignsAndDecalsDataGenerator"
 		]
 	},
 	"mixins": [

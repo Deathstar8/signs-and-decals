@@ -1,5 +1,6 @@
 package deathstar8.signsanddecals;
 
+import deathstar8.signsanddecals.entity.SignsAndDecalsEntityTypes;
 import deathstar8.signsanddecals.item.SignsAndDecalsItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class SignsAndDecals implements ModInitializer {
 		LOGGER.info("Signs and Decals initialized");
 
 		SignsAndDecalsItems.initialize();
+		SignsAndDecalsEntityTypes.initialize();
 	}
 
 	public static Identifier id(String path) {
